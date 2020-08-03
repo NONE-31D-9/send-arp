@@ -7,10 +7,11 @@
 #include <sys/socket.h>
 #include <arpa/inet.h>
 #include <net/if.h>
-#include <stdio.h>
-#include "ip.h"
+#include <net/ethernet.h>
+
 #include <cstdio>
 #include <pcap.h>
+#include "ip.h"
 #include "ethhdr.h"
 #include "arphdr.h"
 
